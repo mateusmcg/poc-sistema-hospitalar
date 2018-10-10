@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mateusmcg/poc-sistema-hospitalar/issues"
   },
-  "homepage": "https://github.com/mateusmcg/poc-sistema-hospitalar#readme"
+  "homepage": "https://github.com/mateusmcg/poc-sistema-hospitalar#readme",
+  "dependencies": {
+    "aws-iot-device-sdk": "^2.2.1"
+  }
 }
