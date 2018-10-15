@@ -22,7 +22,7 @@ namespace receptor_dados_paciente
         {
             var builder = new ConfigurationBuilder()
                 .SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile($"configs/appsettings.json", true, true)
+                .AddJsonFile($"./configs/appsettings.json", true, true)
                 .AddEnvironmentVariables();
                 
             Configuration = builder.Build();
