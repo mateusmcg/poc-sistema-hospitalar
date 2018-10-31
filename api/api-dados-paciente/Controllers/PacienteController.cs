@@ -9,7 +9,6 @@ using Amazon.DynamoDBv2.Model;
 using Amazon.Runtime;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
-using System.Linq;
 using Amazon.DynamoDBv2.DocumentModel;
 
 namespace api_dados_paciente.Controllers
