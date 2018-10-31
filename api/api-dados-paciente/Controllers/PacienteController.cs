@@ -13,7 +13,7 @@ using Amazon.DynamoDBv2.DocumentModel;
 
 namespace api_dados_paciente.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/paciente")]
     [ApiController]
     public class PacienteController : ControllerBase
     {
